@@ -34,12 +34,15 @@ function App() {
   // );
   // is equal to:
 
+  const addExpenseHandler = expense =>{
+    console.log('In App,js');
+    console.log(expense);
+  };
+
 
    return (
      <div>
-       <h2>Let's get started!</h2>
-       <NewExpense></NewExpense>
-       <p>This is also visible</p>
+       <NewExpense onAddExpense ={addExpenseHandler}/>
        <Expenses items = {expenses}/>
      </div>
    );
