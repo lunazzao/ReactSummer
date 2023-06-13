@@ -1,0 +1,7 @@
+
+01-starting-setup/node_modules/.cache
+Component Basics HW/node_modules/.bin
+Component Basics HW/node_modules/.cache
+*.pack
+*.old
+*.pack
